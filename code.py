@@ -51,7 +51,6 @@ class Passenger:
     def getDestinationCity(self):
         return self.destination
 
-
 class Flight:
     def __init__(self, flight_number, departure_time, arrival_time, gate, terminal):
         self.flight_number = flight_number
@@ -146,11 +145,11 @@ flight2 = Flight("NA4321", "11:40", "13:30", "03", "2")
 #Pass object
 pass1 = BoardingPass(passenger1, flight1, "11:20", "11:40")
 pass2 = BoardingPass(passenger2, flight2, "11:20", "11:40")
-
-print("NATIONAL AIRLINES FIRST CLASS")
 # Display details of pass1
+print("NATIONAL AIRLINES FIRST CLASS")
 print("Passenger 1 Boarding Pass:")
 print(f"Name: {pass1.getPassenger().getFirstName()} {pass1.getPassenger().getLastName()}, Departure City: {pass1.getPassenger().getDepartureCity()}, Destination City: {pass1.getPassenger().getDestinationCity()}")
 # Display details of pass2
+print("NATIONAL AIRLINES FIRST CLASS")
 print("Passenger 2 Boarding Pass:")
 print(f"Name: {pass2.getPassenger().getFirstName()} {pass2.getPassenger().getLastName()}, Departure City: {pass2.getPassenger().getDepartureCity()}, Destination City: {pass2.getPassenger().getDestinationCity()}")
